@@ -90,27 +90,27 @@ The repository relies on a modular feature-by-layer structure, clearly segregati
 ```text
 lib/
 ├── core/
-[cite_start]│   └── theme/               # Application styling and color definitions [cite: 56]
-[cite_start]├── models/                  # Concrete data schema models [cite: 58]
-[cite_start]│   ├── activity_model.dart  # Formats user action trails [cite: 59]
-[cite_start]│   ├── feedback_model.dart  # Structures supervisor annotations [cite: 61]
-[cite_start]│   ├── progress_model.dart  # Manages tracking milestone points [cite: 72]
-[cite_start]│   ├── project_model.dart   # Outlines full project parameters [cite: 73]
-[cite_start]│   └── user_model.dart      # Maps corporate user metadata [cite: 75]
-[cite_start]├── providers/               # Application reactive state management blocks [cite: 77]
-[cite_start]│   ├── auth_provider.dart   # Processes ongoing global login states [cite: 79]
-[cite_start]│   ├── project_provider.dart# Orchestrates repository CRUD workflows [cite: 81]
-[cite_start]│   └── theme_provider.dart  # Dispatches user-preference runtime modes [cite: 82]
-[cite_start]├── services/                # Low-level infrastructure cloud wrappers [cite: 85]
-[cite_start]│   ├── auth_service.dart    # Manages upstream security calls [cite: 87]
-[cite_start]│   ├── firestore_service.dart# Executes real-time document queries [cite: 94]
-[cite_start]│   └── storage_service.dart # Interacts with file storage pipelines [cite: 95]
+   └── theme/               # Application styling and color definitions [cite: 56]
+├── models/                  # Concrete data schema models [cite: 58]
+           ├── activity_model.dart  # Formats user action trails [cite: 59]
+           ├── feedback_model.dart  # Structures supervisor annotations [cite: 61]
+           ├── progress_model.dart  # Manages tracking milestone points [cite: 72]
+           ├── project_model.dart   # Outlines full project parameters [cite: 73]
+           '── user_model.dart      # Maps corporate user metadata [cite: 75]
+├── providers/               # Application reactive state management blocks [cite: 77]
+             ├── auth_provider.dart   # Processes ongoing global login states [cite: 79]
+             ├── project_provider.dart# Orchestrates repository CRUD workflows [cite: 81]
+             └── theme_provider.dart  # Dispatches user-preference runtime modes [cite: 82]
+├── services/                # Low-level infrastructure cloud wrappers [cite: 85]
+             ├── auth_service.dart    # Manages upstream security calls [cite: 87]
+             ├── firestore_service.dart# Executes real-time document queries [cite: 94]
+             └── storage_service.dart # Interacts with file storage pipelines [cite: 95]
 └── ui/                      # Responsive visual interface layouts
-    [cite_start]├── admin/               # Administrative cluster views [cite: 97]
-    [cite_start]├── auth/                # Sign-in and onboarding interfaces [cite: 104]
-    [cite_start]├── shared/              # Reusable design elements and cards [cite: 109]
-    [cite_start]├── student/             # Interactive student workspaces [cite: 141]
-    [cite_start]└── supervisor/          # Review portals and feedback matrices [cite: 153]
+              ├── admin/               # Administrative cluster views [cite: 97]
+              ├── auth/                # Sign-in and onboarding interfaces [cite: 104]
+              ├── shared/              # Reusable design elements and cards [cite: 109]
+              ├── student/             # Interactive student workspaces [cite: 141]
+              └── supervisor/          # Review portals and feedback matrices [cite: 153]
 
 ```
 
@@ -291,4 +291,4 @@ flutter run
 **Abrar Hussain** *Department of Computer Science, National University of Modern Languages (NUML), Islamabad* 
 
 
-*System ID:* `NUML-F24-40316` | *Roll Number:* `I-ADC9248336`
+
