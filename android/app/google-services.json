@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "554859336568",
+    "project_id": "mad-fyp-adb09",
+    "storage_bucket": "mad-fyp-adb09.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554859336568:android:18b005a39b686bbd312e8d",
+        "android_client_info": {
+          "package_name": "com.example.abrar_fyp_mad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuiCTcNEjfzo6ubZMAUd6jcZz3DSk9kGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554859336568:android:23666a37aa132dcf312e8d",
+        "android_client_info": {
+          "package_name": "com.mad.fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuiCTcNEjfzo6ubZMAUd6jcZz3DSk9kGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
